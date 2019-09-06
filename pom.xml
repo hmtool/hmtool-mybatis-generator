@@ -4,7 +4,7 @@
 
   <groupId>tech.mhuang</groupId>
   <artifactId>hmtool-mybatis-generator</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>mybatis code generate plugins</name>
   <description>自动生成CRUD等操作、包含注释等</description>
