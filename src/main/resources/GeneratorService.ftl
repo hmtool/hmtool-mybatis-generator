@@ -1,7 +1,7 @@
 package ${servicePackage};
 
 import ${entityClass}.${entityClassName};
-import com.petecat.interchan.core.service.BaseService;
+import tech.mhuang.ext.interchan.core.service.BaseService;
 /**
  * ${description}服务接口
  * @author: ${author}

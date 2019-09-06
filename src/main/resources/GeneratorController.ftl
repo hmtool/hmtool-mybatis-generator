@@ -2,7 +2,7 @@ package ${controllerPackage};
 
 import ${entityClass}.${entityClassName};
 import ${servicePackage}.I${entityClassName}Service;
-import com.petecat.interchan.core.controller.BaseController;
+import tech.mhuang.ext.interchan.core.controller.BaseController;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.petecat.interchan.protocol.Result;
+import tech.mhuang.ext.interchan.protocol.Result;
 
 /**
 * ${description}控制层

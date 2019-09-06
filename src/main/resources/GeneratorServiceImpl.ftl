@@ -3,7 +3,7 @@ package ${servicePackage}.impl;
 import ${entityClass}.${entityClassName};
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.petecat.interchan.core.service.impl.BaseServiceImpl;
+import tech.mhuang.ext.interchan.core.service.impl.BaseServiceImpl;
 import ${servicePackage}.I${entityClassName}Service;
 import ${mapperPackage}.${entityClassName}Mapper;
 

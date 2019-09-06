@@ -314,7 +314,7 @@ public class MybatisPlugin extends PluginAdapter {
         interfaze.addImportedType(new FullyQualifiedJavaType("org.apache.ibatis.annotations.Mapper"));
         interfaze.addAnnotation("@Mapper");
         interfaze.addSuperInterface(new FullyQualifiedJavaType("BaseMapper<" + introspectedTable.getBaseRecordType() + ",String>"));
-        interfaze.addImportedType(new FullyQualifiedJavaType("com.petecat.interchan.core.mapper.BaseMapper"));
+        interfaze.addImportedType(new FullyQualifiedJavaType("tech.mhuang.ext.interchan.core.mapper.BaseMapper"));
         interfaze.getMethods().clear();
         return true;
     }
